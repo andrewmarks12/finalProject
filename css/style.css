@@ -1,6 +1,27 @@
+.head-text {
+    text-align: center;
+}
+
 img {
     width: 85%;
     border-radius: 8px;
     display: block;
     margin: auto;
+}
+
+#list1 {
+    text-align: left;
+}
+
+#list2 {
+    text-align: right;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    text-align: center;
+    justify-content: space-between;
+    padding: 4%;
 }
